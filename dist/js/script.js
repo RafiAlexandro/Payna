@@ -23,8 +23,6 @@ $(document).ready(function () {
     
     $(hamburger).click(function () {
 
-        $(hamburger).toggleClass("hamburger-active");
-
         if (mobile.matches) {
             $(navMenu).slideToggle();
         } else {
@@ -33,4 +31,23 @@ $(document).ready(function () {
         }
     });
 
+    // Active
+
+    // Get all buttons with class="btn" inside the container
+    var list = $(".menu_link");
+
+    // Loop through the buttons and add the active class to the current/clicked button
+    for (var i = 0; i < list.length; i++) {
+    list[i].addEventListener("click", function() {
+        var current = document.getElementsByClassName("active");
+
+        // If there's no active class
+        if (current.length > 0) {
+        current[0].className = current[0].className.replace(" active", "");
+        }
+
+        // Add the active class to the current/clicked button
+        this.className += " active";
+    });
+    }
 });
