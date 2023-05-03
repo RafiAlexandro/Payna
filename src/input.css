@@ -22,3 +22,11 @@ body {
 .btn-secondary {
     @apply bg-secondary px-10 py-3 text-slate-700 rounded-3xl hover:bg-secondary-hover hover:shadow-lg shadow-slate-400 hover:transition-all;
 }
+
+.login-center {
+    top: 50%;
+    left: 50%; 
+}
+
+.hello-password {
+}

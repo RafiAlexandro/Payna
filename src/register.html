@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../dist/style.css">
+</head>
+<body class="bg-slate-100">
+    
+    <!-- Login Form -->
+    <main class="px-7">
+        <div class="w-full h-screen flex justify-center items-center">
+            <div class="login-form bg-white shadow-xl w-auto h-1/2 rounded-xl">
+                <div class="flex justify-center items-center h-full">
+                    <div class="logo bg-primary h-full rounded-l-xl px-2 sm:px-10 flex items-center">
+                        <img src="../dist/icons/logo.png" class="hidden sm:block w-6" alt="logo">
+                        <h1 class=" hidden md:block font-semibold text-white ml-2">Payna</h1>
+                    </div>
+                    <div class="login px-10 block">
+                        <h1 class="font-semibold text-lg sm:text-2xl">Register</h1>
+                        <p class="mt-4 text-sm">Already have an account? <a href="login.html" class="font-semibold">Login</a></p>
+                        <div class="form flex flex-col mt-6 sm:mt-10">
+                            <input type="text" name="name" placeholder="Name" class="text-sm p-2 border-b-2 border-slate-300 focus:outline-none focus:border-2 focus:border-primary focus:rounded-md">
+                            <input type="email" name="email" placeholder="Email" class="text-sm mt-6 sm:mt-10 p-2 border-b-2 border-slate-300 focus:outline-none focus:border-2 focus:border-primary focus:rounded-md">
+                            <input id="password" type="password" name="password" class="text-sm mt-6 sm:mt-10 w-full p-2 border-b-2 border-slate-300 focus:outline-none focus:border-2 focus:border-primary focus:rounded-md" placeholder="Password">
+                        </div>
+                        <button type="button" class="btn-primary mt-8">Register</button>
+                        <a href="index.html" class="block mt-6 text-xs font-semibold">Back to Homepage</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+    <!-- Script -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="../dist/js/login.js"></script>
+</body>
+</html>
