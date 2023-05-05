@@ -643,10 +643,6 @@ video {
   display: none;
 }
 
-.h-1\/2 {
-  height: 50%;
-}
-
 .h-11 {
   height: 2.75rem;
 }
@@ -1397,10 +1393,6 @@ body {
 
   .xl\:flex {
     display: flex;
-  }
-
-  .xl\:w-1\/2 {
-    width: 50%;
   }
 
   .xl\:w-48 {
