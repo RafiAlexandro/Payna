@@ -1399,16 +1399,16 @@ body {
     display: flex;
   }
 
+  .xl\:w-1\/2 {
+    width: 50%;
+  }
+
   .xl\:w-48 {
     width: 12rem;
   }
 
   .xl\:w-5\/12 {
     width: 41.666667%;
-  }
-
-  .xl\:w-6\/12 {
-    width: 50%;
   }
 
   .xl\:w-full {
