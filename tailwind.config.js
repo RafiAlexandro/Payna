@@ -3,7 +3,7 @@
 const plugin = require('tailwindcss/plugin');
 
 module.exports = {
-  content: ["./src/**/*.{html,js}", "index.html"],
+  content: ["index.html"],
   theme: {
     extend: {
       colors: {
